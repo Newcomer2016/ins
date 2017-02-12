@@ -11,7 +11,7 @@ let config = {
     maxUserOccurs: 3,
     maxMediaOccurs: 24,
     timeout: 10000,
-    proxy: 'htyp://127.0.0.1:1080',
+    proxy: '',
     igrCAErr: false
 };
 
