@@ -8,7 +8,7 @@ let config = {
     savePath: './downloads',
     debug: false,
 
-    maxUserOccurs: 3,
+    maxUserOccurs: 1,
     maxMediaOccurs: 24,
     timeout: 10000,
     proxy: '',
