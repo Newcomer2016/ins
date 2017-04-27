@@ -330,7 +330,7 @@ function downMediaList(userDB, callback) {
                 }
 
                 let videoJson = JSON.parse(resp.body);
-                mediaNodeInfo.mediaSrc = videoJson.media.video_url;
+                mediaNodeInfo.mediaSrc = videoJson.graphql.shortcode_media.video_url;
                 downTheMedia(mediaNodeInfo, userDB, callback2);
             });
         } else {

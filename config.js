@@ -9,8 +9,8 @@ let config = {
     debug: false,
 
     maxUserOccurs: 1,
-    maxMediaOccurs: 24,
-    timeout: 10000,
+    maxMediaOccurs: 5,
+    timeout: 20000,
     proxy: '',
     igrCAErr: false
 };
