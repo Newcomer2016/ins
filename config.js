@@ -5,12 +5,13 @@ let config = {
     // 抓取用户列表
     downUsers: [],
 
+    userFollow: '',
+
     savePath: './downloads',
-    debug: false,
 
     maxUserOccurs: 1,
-    maxMediaOccurs: 5,
-    timeout: 20000,
+    maxMediaOccurs: 8,
+    timeout: 10000,
     proxy: '',
     igrCAErr: false
 };
